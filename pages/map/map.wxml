@@ -1,0 +1,2 @@
+<!--map.wxml-->
+<map id="m_map" show-location controls="{{controls}}" markers="{{markers}}" bindcontroltap="controltap" bindregionchange="map_change"  bindmarkertap="markertap"  longitude="{{current_position.longitude}}" latitude="{{current_position.latitude}}" polyline="{{polyline}}" />
